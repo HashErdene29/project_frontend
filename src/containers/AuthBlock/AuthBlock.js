@@ -10,7 +10,7 @@ const AuthBlock = () => {
 
     return (
         <Fragment>
-            <Header />
+            {/* <Header /> */}
             <Switch>
                 <Route path='/login' component={Auth} />
                 <Route path='/user' component={UserProfile} />
